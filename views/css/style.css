@@ -1,0 +1,124 @@
+
+    body {
+      background-color: #f7f9fc;
+      font-family: 'Roboto', sans-serif;
+      background-image: url('https://www.transparenttextures.com/patterns/diamond-upholstery.png');
+    }
+
+    .container {
+      max-width: 90%;
+      margin-top: 30px;
+      padding: 20px;
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      font-weight: bold;
+      color: #4a90e2;
+      margin-bottom: 20px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .btn {
+      font-weight: bold;
+      transition: all 0.3s;
+      border-radius: 5px;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .btn-success {
+      background-color: #4caf50;
+      border: none;
+    }
+
+    .btn-outline-success {
+      color: #4caf50;
+      border: 2px solid #4caf50;
+    }
+
+    .btn-outline-success:hover {
+      background-color: #4caf50;
+      color: white;
+    }
+
+    .table-responsive {
+      margin-top: 20px;
+    }
+
+    .modal-header {
+      background-color: #4a90e2;
+      color: white;
+      border-bottom: none;
+    }
+
+    .modal-title {
+      font-weight: bold;
+    }
+
+    .modal-footer .btn-secondary {
+      background-color: #6c757d;
+    }
+
+    .modal-footer .btn-primary {
+      background-color: #28a745;
+    }
+
+    .table th,
+    .table td {
+      vertical-align: middle;
+      padding: 15px;
+    }
+
+    .table th {
+      text-align: center;
+      background-color: #343a40;
+      color: white;
+    }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+      background-color: #f8f9fa;
+    }
+
+    .action-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .action-buttons button {
+      font-size: 1.1rem;
+    }
+
+    .action-buttons .btn-view {
+      background-color: #17a2b8;
+      color: white;
+    }
+
+    .action-buttons .btn-edit {
+      background-color: #ffc107;
+      color: white;
+    }
+
+    .action-buttons .btn-delete {
+      background-color: #dc3545;
+      color: white;
+    }
+
+    .header-buttons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    #exportCsv {
+      font-weight: bold;
+    }
