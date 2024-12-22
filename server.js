@@ -22,7 +22,12 @@ const itemsRoutes = require('./routes/items');
 app.use('/api/items', itemsRoutes);
 
 // Serve Frontend
-app.use(express.static('views'));
+const path = require('path');
+app.use(express.static(path.join(__dirname, 'views')));
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'views', 'index.html'));
+});
+
 
 // Start Server
 const PORT = process.env.PORT || 5000;
